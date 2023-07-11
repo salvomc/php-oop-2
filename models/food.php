@@ -1,6 +1,6 @@
 <?php
 
-class foods extends products{
+class food extends products{
     public $weight;
     public $ingredients;
 
