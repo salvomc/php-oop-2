@@ -36,10 +36,13 @@ $products=
         <title>php-oop-2</title>
     </head>
     <body>
+        <header class="d-flex justify-content-center bg-success-subtle .text-body-emphasis">
+            <h1 class="p-4 fst-italic">Boolshop</h1>
+        </header>
         <div class="container">
             <div class="row">
                 <?php foreach($products as $product) { ?>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
                         <div class="card p-4">
                             <img src="<?php echo $product->image ?>" alt="img">
                             <?php echo $product->name ?>
